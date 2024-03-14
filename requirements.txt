@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlmodel
+sqlalchemy
+asyncpg
+psycopg2
+python-dotenv
+Cython
+graphql
+strawberry-graphql[fastapi]
+python-jose[cryptography]
+passlib[bcrypt]
