@@ -7,7 +7,7 @@ Make sure you have the following prerequisites installed:
 
 - Python (3.7+)
 - Pip (Python package manager)
-- Existing Postgresql database
+- Existing Postgresql database:
 
 ## Installing Dependencies
 1. Clone this repository to your local machine:  
@@ -16,6 +16,10 @@ Make sure you have the following prerequisites installed:
 
 2. Install the project dependencies:  
     `pip install -r requirements.txt`
+
+## Database configuration
+You need to use the following value for DB_CONFIG environ variable:  
+`postgresql+asyncpg://<db_username>:<db_password>@<db_host>:5432/<db_name>`
 
 ## Run the app
 1. Execute the following command:  
